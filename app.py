@@ -28,7 +28,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.markdown("&nbsp;<br>&nbsp;<br>", unsafe_allow_html=True)
+st.markdown("&nbsp;<br>", unsafe_allow_html=True)
 
 
 # 5. Upload CSV
