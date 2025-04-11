@@ -24,10 +24,10 @@ st.set_page_config(page_title="CSV Gemini Chatbot", layout="centered")
 st.title("🤖 QueryTalker")
 
 # 5. Upload CSV
-uploaded_file = st.file_uploader("📁 Please upload your CSV file. ", type=["csv"])
+uploaded_file = st.file_uploader(" 📁 Please upload your CSV file. ", type=["csv"])
 if uploaded_file:
     df = pd.read_csv(uploaded_file)
-    st.write("Preview of the information in the file.:")
+    st.write(" 📊 Preview of the information in the file. ")
     st.dataframe(df.head())
 
     # แปลง DataFrame เป็นข้อความแบบย่อส่งให้โมเดล
@@ -48,7 +48,7 @@ if uploaded_file:
             {"role": "model", "parts": ["I’ve reviewed the data. Feel free to ask me anything about it 🙂"]}
         ]
     )
-    st.success("✅ Do you need a hand with anything?")
+    st.success(" ✅ Do you need a hand with anything?")
 
 # 6. แสดงประวัติแชท
 for msg in st.session_state.chat_log:
