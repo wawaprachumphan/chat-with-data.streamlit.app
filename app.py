@@ -22,7 +22,7 @@ if "chat_log" not in st.session_state:
 # 4. UI
 st.set_page_config(page_title="CSV Gemini Chatbot", layout="centered")
 st.title("🤖 QueryTalker")
-st.write("One Upload. Your Questions, My Sharp Insights — Powered by Gemini."
+st.write("One Upload. Your Questions, My Sharp Insights — Powered by Gemini.")
 
 # 5. Upload CSV
 uploaded_file = st.file_uploader(" 📁 Please upload your CSV file. ", type=["csv"])
