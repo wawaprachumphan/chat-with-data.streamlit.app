@@ -48,7 +48,7 @@ if uploaded_file:
             {"role": "model", "parts": ["I’ve reviewed the data. Feel free to ask me anything about it 🙂"]}
         ]
     )
-    st.success(" ✅ Do you need a hand with anything?")
+    st.success(" ✅ Ready to Talk. Do you need a hand with anything?")
 
 # 6. แสดงประวัติแชท
 for msg in st.session_state.chat_log:
