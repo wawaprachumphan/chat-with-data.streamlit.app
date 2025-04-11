@@ -32,10 +32,13 @@ st.markdown("&nbsp;<br>", unsafe_allow_html=True)
 
 
 # 5. Upload CSV
-uploaded_file = st.file_uploader(" 📁 Please upload your CSV file. ", type=["csv"])
+# 5. Upload CSV
+st.markdown('<p style="font-size:16px;">📁 Please upload your CSV file.</p>', unsafe_allow_html=True)
+uploaded_file = st.file_uploader("", type=["csv"])
+
 if uploaded_file:
     df = pd.read_csv(uploaded_file)
-    st.write(" 📊 Preview of the information in the file. ")
+    st.write("📊 Preview of the information in the file.")
     st.dataframe(df.head())
 
     # แปลง DataFrame เป็นข้อความแบบย่อส่งให้โมเดล
