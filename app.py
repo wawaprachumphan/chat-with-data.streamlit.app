@@ -21,7 +21,7 @@ if "chat_log" not in st.session_state:
 
 # 4. UI
 st.set_page_config(page_title="CSV Gemini Chatbot", layout="centered")
-st.title("🤖 QueryTalker")
+st.title("🤖 C (sv) mini")
 
 st.markdown(
     "<div style='font-size: 1.2rem; font-weight: 500;'>One Upload. Your Questions, My Sharp Insights — Powered by Gemini.</div>",
