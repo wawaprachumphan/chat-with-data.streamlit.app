@@ -28,8 +28,8 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-<br>
-<br>
+st.markdown("&nbsp;<br>&nbsp;<br>", unsafe_allow_html=True)
+
 
 # 5. Upload CSV
 uploaded_file = st.file_uploader(" 📁 Please upload your CSV file. ", type=["csv"])
