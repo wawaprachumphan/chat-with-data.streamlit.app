@@ -24,7 +24,7 @@ st.set_page_config(page_title="CSV Gemini Chatbot", layout="centered")
 st.title("🤖 QueryTalker")
 
 st.markdown(
-    "<h4 style='margin-top: 0;'>One Upload. Your Questions, My Sharp Insights — Powered by Gemini.</h2>",
+    "<h4 style='margin-top: 0;'>One Upload. Your Questions, My Sharp Insights — Powered by Gemini.</h5>",
     unsafe_allow_html=True
 )
 
